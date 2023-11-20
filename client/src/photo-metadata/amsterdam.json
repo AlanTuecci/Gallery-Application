@@ -1,0 +1,56 @@
+{
+    "resources": [
+      {
+        "format": "jpg",
+        "resource_type": "image",
+        "date_taken": "August 8, 2023",
+        "time_taken": "11:20:16 am",
+        "width": 5304,
+        "height": 7952,
+        "exposure": "1/320 sec",
+        "iso": "ISO 125",
+        "aperture": "f/4.0",
+        "focal_length": "62 mm",
+        "filename": "_DSC6942.jpg",
+        "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274479/WebDev-Assignment-1/photo-amsterdam/tjctor28sgisut7mktoo.jpg",
+        "latitude": 52.374,
+        "longitude": 4.8897,
+        "date": "2023-08-08"
+      },
+      {
+        "format": "jpg",
+        "resource_type": "image",
+        "date_taken": "August 8, 2023",
+        "time_taken": "11:53:04 am",
+        "width": 7611,
+        "height": 5077,
+        "exposure": "1/800 sec",
+        "iso": "ISO 250",
+        "aperture": "f/5.6",
+        "focal_length": "200 mm",
+        "filename": "_DSC6945.jpg",
+        "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274488/WebDev-Assignment-1/photo-amsterdam/rzjslcw1gznpebyhgxgv.jpg",
+        "latitude": 52.374,
+        "longitude": 4.8897,
+        "date": "2023-08-08"
+      },
+      {
+        "format": "jpg",
+        "resource_type": "image",
+        "date_taken": "August 8, 2023",
+        "time_taken": "03:10:09 pm",
+        "width": 5279,
+        "height": 7915,
+        "exposure": "1/800 sec",
+        "iso": "ISO 100",
+        "aperture": "f/2.8",
+        "focal_length": "28 mm",
+        "filename": "_DSC6978.jpg",
+        "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274492/WebDev-Assignment-1/photo-amsterdam/ismjueelpiffadiqykgq.jpg",
+        "latitude": 52.374,
+        "longitude": 4.8897,
+        "date": "2023-08-08"
+      }
+    ]
+  }
+  

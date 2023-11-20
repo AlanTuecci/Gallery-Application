@@ -1,0 +1,39 @@
+{
+    "resources": [
+      {
+        "format": "jpg",
+        "resource_type": "image",
+        "date_taken": "October 20, 2021",
+        "time_taken": "08:19:01 pm",
+        "width": 7924,
+        "height": 5285,
+        "exposure": "1/80 sec",
+        "iso": "ISO 1600",
+        "aperture": "f/4.0",
+        "focal_length": "50 mm",
+        "filename": "DSC03149.jpg",
+        "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274623/WebDev-Assignment-1/photo-new-york/dumbo-carousel/sdmjdhmdtquuwwjziwrx.jpg",
+        "latitude": 40.70,
+        "longitude": -73.99,
+        "date": "2021-10-20"
+      },
+      {
+        "format": "jpg",
+        "resource_type": "image",
+        "date_taken": "October 20, 2021",
+        "time_taken": "09:17:43 pm",
+        "width": 7830,
+        "height": 5223,
+        "exposure": "1/200 sec",
+        "iso": "ISO 6400",
+        "aperture": "f/1.8",
+        "focal_length": "50 mm",
+        "filename": "DSC03184.jpg",
+        "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274621/WebDev-Assignment-1/photo-new-york/dumbo-carousel/fppjpbiymzlmegtxsoux.jpg",
+        "latitude": 40.70,
+        "longitude": -73.99,
+        "date": "2021-10-20"
+      }
+    ]
+  }
+  

@@ -1,0 +1,73 @@
+{
+    "resources": [
+      {
+        "format": "jpg",
+        "resource_type": "image",
+        "date_taken": "August 5, 2023",
+        "time_taken": "10:50:53 am",
+        "width": 5304,
+        "height": 7952,
+        "exposure": "1/800 sec",
+        "iso": "ISO 100",
+        "aperture": "f/4.5",
+        "focal_length": "85 mm",
+        "filename": "_DSC6902.jpg",
+        "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274507/WebDev-Assignment-1/photo-london/vcoc8mbns2nvksooruze.jpg",
+        "latitude": 51.50,
+        "longitude": -0.12,
+        "date": "2023-08-05"
+      },
+      {
+        "format": "jpg",
+        "resource_type": "image",
+        "date_taken": "August 5, 2023",
+        "time_taken": "10:51:16 am",
+        "width": 7856,
+        "height": 5240,
+        "exposure": "1/400 sec",
+        "iso": "ISO 100",
+        "aperture": "f/5.0",
+        "focal_length": "29 mm",
+        "filename": "_DSC6904.jpg",
+        "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274512/WebDev-Assignment-1/photo-london/ywnth7uyhuthh42so0mb.jpg",
+        "latitude": 51.50,
+        "longitude": -0.12,
+        "date": "2023-08-05" 
+      },
+      {
+        "format": "jpg",
+        "resource_type": "image",
+        "date_taken": "August 5, 2023",
+        "time_taken": "01:37:42 pm",
+        "width": 7366,
+        "height": 4913,
+        "exposure": "1/250 sec",
+        "iso": "ISO 160",
+        "aperture": "f/9.0",
+        "focal_length": "52 mm",
+        "filename": "_DSC6919.jpg",
+        "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274515/WebDev-Assignment-1/photo-london/o1wvwk5lixaeortgajvi.jpg",
+        "latitude": 51.50,
+        "longitude": -0.12,
+        "date": "2023-08-05" 
+      },
+      {
+        "format": "jpg",
+        "resource_type": "image",
+        "date_taken": "August 6, 2023",
+        "time_taken": "10:14:15 am",
+        "width": 7546,
+        "height": 5033,
+        "exposure": "1/400 sec",
+        "iso": "ISO 100",
+        "aperture": "f/8.0",
+        "focal_length": "49 mm",
+        "filename": "_DSC6921.jpg",
+        "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274519/WebDev-Assignment-1/photo-london/n6ftd1deni124wrcocaz.jpg",
+        "latitude": 51.50,
+        "longitude": -0.12,
+        "date": "2023-08-06" 
+      }
+    ]
+  }
+  

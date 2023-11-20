@@ -1,0 +1,55 @@
+{
+  "resources": [
+    {
+      "format": "jpg",
+      "resource_type": "image",
+      "date_taken": "October 28, 2022",
+      "time_taken": "05:17:21 pm",
+      "width": 5304,
+      "height": 7952,
+      "exposure": "1/500 sec",
+      "iso": "ISO 1250",
+      "aperture": "f/4.5",
+      "focal_length": "94 mm",
+      "filename": "_DSC5779.jpg",
+      "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274537/WebDev-Assignment-1/photo-new-york/brooklyn-army-terminal/p8hpa6pk38wyhiefds8s.jpg",
+      "latitude": 40.64,
+      "longitude": -74.03,
+      "date": "2022-10-28"
+    },
+    {
+      "format": "jpg",
+      "resource_type": "image",
+      "date_taken": "October 28, 2022",
+      "time_taken": "05:20:21 pm",
+      "width": 7812,
+      "height": 5210,
+      "exposure": "1/200 sec",
+      "iso": "ISO 1600",
+      "aperture": "f/4.5",
+      "focal_length": "37 mm",
+      "filename": "_DSC5782.jpg",
+      "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274539/WebDev-Assignment-1/photo-new-york/brooklyn-army-terminal/bwqpmevmefhwyhu6lw4w.jpg",
+      "latitude": 40.64,
+      "longitude": -74.03,
+      "date": "2022-10-28"
+    },
+    {
+      "format": "jpg",
+      "resource_type": "image",
+      "date_taken": "October 28, 2022",
+      "time_taken": "06:09:02 pm",
+      "width": 7769,
+      "height": 5182,
+      "exposure": "1/500 sec",
+      "iso": "ISO 640",
+      "aperture": "f/2.8",
+      "focal_length": "28 mm",
+      "filename": "_DSC5818.jpg",
+      "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274539/WebDev-Assignment-1/photo-new-york/brooklyn-army-terminal/bmgkyvlkff5bpdcj7ova.jpg",
+      "latitude": 40.64,
+      "longitude": -74.03,
+      "date": "2022-10-28"
+    }
+  ]
+}

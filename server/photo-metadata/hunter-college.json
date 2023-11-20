@@ -1,0 +1,55 @@
+{
+  "resources": [
+    {
+      "format": "jpg",
+      "resource_type": "image",
+      "date_taken": "March 9, 2022",
+      "time_taken": "07:39:56 pm",
+      "width": 7659,
+      "height": 5108,
+      "exposure": "30.0 sec",
+      "iso": "ISO 50",
+      "aperture": "f/11",
+      "focal_length": "50 mm",
+      "filename": "_DSC4290.jpg",
+      "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274717/WebDev-Assignment-1/photo-new-york/hunter-college/rfi4nfy5fcxniiyicqlt.jpg",
+      "latitude": 40.77,
+      "longitude": -73.96,
+      "date": "2022-03-09" 
+      },
+      {
+      "format": "jpg",
+      "resource_type": "image",
+      "date_taken": "March 9, 2022",
+      "time_taken": "07:43:27 pm",
+      "width": 7942,
+      "height": 5298,
+      "exposure": "30.0 sec",
+      "iso": "ISO 50",
+      "aperture": "f/14",
+      "focal_length": "50 mm",
+      "filename": "_DSC4291.jpg",
+      "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274703/WebDev-Assignment-1/photo-new-york/hunter-college/nm3wccjaca3aarlgjkj4.jpg",
+      "latitude": 40.77,
+      "longitude": -73.96,
+      "date": "2022-03-09" 
+      },
+      {
+      "format": "jpg",
+      "resource_type": "image",
+      "date_taken": "March 9, 2023",
+      "time_taken": "10:41:47 pm",
+      "width": 4918,
+      "height": 3281,
+      "exposure": "30.0 sec",
+      "iso": "ISO 50",
+      "aperture": "f/16",
+      "focal_length": "59 mm",
+      "filename": "_DSC6285.jpg",
+      "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274710/WebDev-Assignment-1/photo-new-york/hunter-college/oc8xmdcadf2rkfqhatza.jpg",
+      "latitude": 40.77,
+      "longitude": -73.96,
+      "date": "2023-03-09"
+    }
+  ]
+}

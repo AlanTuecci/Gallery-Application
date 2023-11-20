@@ -1,0 +1,57 @@
+/* ImageGallery.css */
+.container {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+}
+
+.gallery {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-item {
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.text-section {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: larger;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+}
+
+.nav-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.nav-button:hover {
+  background-color: #45a049;
+}
