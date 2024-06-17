@@ -5,9 +5,11 @@ const fs = require('fs/promises');
 const axios = require('axios');
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
+
+app.use(express.static("../frontend/build"))
 
 //Defines the function used to give the client access to the .json file for the photos requested
 //The .json files are written by Alan Tuecci and contain all image information such as camera information, time and data, and a link to it (the images themselves are stored in Cloudinary)

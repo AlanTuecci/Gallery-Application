@@ -6,8 +6,8 @@ import './ImageGallery.css';
 import '../App.css';
 import ImageDetails from './ImageDetails';
 
-const PORT = 3001;
-const URL = 'gallery-3vk6.onrender.com';
+const PORT = process.env.PORT || 3000;
+const URL = process.env.URL || 'localhost';
 
 const ImageGallery = () => {
   const { id } = useParams();
@@ -23,7 +23,7 @@ const ImageGallery = () => {
     const fetchData = async () => {
       try {
         //Calls server API to get the data related to the images taken at a certain location
-        const response = await axios.get(`https://${URL}:${PORT}/api/images/${id}`);
+        const response = await axios.get(`http://${URL}:${PORT}/api/images/${id}`);
         console.log('Server Response:', response.data);
         setImages(response.data.resources);
 
@@ -31,12 +31,12 @@ const ImageGallery = () => {
           const { latitude, longitude, date } = response.data.resources[0];
 
           //Calls server API to get the Weather Data at the location where the photo was taken at the day of when the photo was taken 
-          const pastWeatherResponse = await axios.get(`https://${URL}:${PORT}/api/weather/${latitude}/${longitude}/${date}`);
+          const pastWeatherResponse = await axios.get(`http://${URL}:${PORT}/api/weather/${latitude}/${longitude}/${date}`);
           console.log('Past Weather Data:', pastWeatherResponse.data);
           setWeather(pastWeatherResponse.data);
 
           //Calls server API to get the Current Weather Data at the location where the photo was taken at the current day
-          const currentWeatherResponse = await axios.get(`https://${URL}:${PORT}/api/currentweather/${latitude}/${longitude}`);
+          const currentWeatherResponse = await axios.get(`http://${URL}:${PORT}/api/currentweather/${latitude}/${longitude}`);
           console.log('Current Weather Data:', currentWeatherResponse.data);
           setCurrentWeather(currentWeatherResponse.data);
         }
