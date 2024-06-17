@@ -10,7 +10,7 @@ const HomePage = () => {
       <div className="home-container">
         <div className="home-content">
           <h1>Welcome to Alan Tuecci's Gallery</h1>
-          <h2>Explore stunning galleries from different locations.</h2>
+          <h2>Explore galleries from different locations.</h2>
           {/*Using the react router dom, create buttons that lead to gallery pages*/}
           <div className="gallery-links">
             <Link to="/gallery/alesund"><h3>Norway - Alesund</h3></Link>
