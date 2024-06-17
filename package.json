@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-    "start:frontend": "cd frontend && npm run start",
+    "start:frontend": "cd frontend && serve -s build",
     "start:backend": "cd backend && node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install -g concurrently && cd frontend && npm install && npm run build && cd ../backend && npm install"
+    "build": "npm install -g concurrently && cd frontend && npm install && npm install -g serve && npm run build && cd ../backend && npm install"
   },
   "keywords": [],
   "author": "",
