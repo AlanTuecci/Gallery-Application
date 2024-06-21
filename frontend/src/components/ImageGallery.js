@@ -6,7 +6,7 @@ import './ImageGallery.css';
 import '../App.css';
 import ImageDetails from './ImageDetails';
 
-const URL = "gallery-3vk6.onrender.com";
+const URL = process.env.REACT_APP || "gallery-3vk6.onrender.com";
 
 const ImageGallery = () => {
   const { id } = useParams();

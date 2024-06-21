@@ -5,7 +5,8 @@ const fs = require('fs/promises');
 const axios = require('axios');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const URL = process.env.REACT_APP_URL || "gallery-3vk6.onrender.com";
+const PORT = process.env.REACT_APP_PORT || 3000;
 
 app.use(cors());
 
@@ -92,5 +93,6 @@ app.get('/api/currentweather/:latitude/:longitude', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on url: ${URL}.`);
+  console.log(`Server is running on port: ${PORT}.`);
 });
