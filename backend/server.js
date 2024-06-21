@@ -15,7 +15,8 @@ app.use(express.static("../frontend/build"))
 //Defines the function used to give the client access to the .json file for the photos requested
 //The .json files are written by Alan Tuecci and contain all image information such as camera information, time and data, and a link to it (the images themselves are stored in Cloudinary)
 app.get('/api/images/:gallery', async (req, res) => {
-  const galleryName = req.params.gallery;
+  let galleryName = req.params.gallery;
+  galleryName = path.basename(galleryName);
   const jsonFilePath = path.join(__dirname, 'photo-metadata', `${galleryName}.json`);
 
   try {
