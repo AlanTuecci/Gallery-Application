@@ -2,7 +2,7 @@
 This repository contains the code for a full-stack application that allows users to see photographs that I have taken in the past.
 The purpose of this application is to help beginner photographers see how weather conditions and camera settings can change how their pictures look.
 
-## This site was deployed on [Render](gallery-3vk6.onrender.com)
+## This site was deployed on [Render](https://gallery-3vk6.onrender.com)
 Please note that this deployment was done on Render's free-tier, which means that the site may spin-down with inactivity.
 Render says that spun-down sites may take over 50 seconds to resume, so if the link seems to be broken, it likely means that the service has spun-down and needs to be resumed.
 
