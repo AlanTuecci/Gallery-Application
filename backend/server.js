@@ -25,10 +25,10 @@ app.get("/gallery/api/images/:gallery", async (req, res) => {
   try {
     const jsonData = await fs.readFile(jsonFilePath, "utf-8");
     const imageArray = JSON.parse(jsonData);
-    res.json(imageArray);
+    return res.json(imageArray);
   } catch (error) {
     console.error("Error reading JSON file:", error);
-    res.status(500).json({ error: "Internal Server Error" });
+    return res.status(500).json({ error: "Internal Server Error" });
   }
 });
 
@@ -37,6 +37,21 @@ app.get("/gallery/api/weather/:latitude/:longitude/:date", async (req, res) => {
   const { latitude, longitude, date } = req.params;
 
   try {
+    let checkDate = new Date(date);
+    if (isNaN(checkDate.getDate())) {
+      return res.status(400).json({ error: "Invalid date!" });
+    }
+
+    let checkLatitude = parseFloat(latitude);
+    if (isNaN(checkLatitude) || checkLatitude > 90 || checkLatitude < -90) {
+      return res.status(400).json({ error: "Invalid latitude!" });
+    }
+
+    let checkLongitude = parseFloat(longitude);
+    if (isNaN(checkLongitude) || checkLongitude > 180 || checkLongitude < -180) {
+      return res.status(400).json({ error: "Invalid longitude!" });
+    }
+
     const apiUrl = `https://archive-api.open-meteo.com/v1/archive?latitude=${latitude}&longitude=${longitude}&start_date=${date}&end_date=${date}&hourly=temperature_2m,precipitation,cloud_cover&daily=sunrise,sunset&timezone=auto`;
 
     const response = await axios.get(apiUrl);
@@ -57,10 +72,10 @@ app.get("/gallery/api/weather/:latitude/:longitude/:date", async (req, res) => {
       daily: data.daily,
     };
 
-    res.json(weatherData);
+    return res.json(weatherData);
   } catch (error) {
     console.error("Error fetching weather data:", error);
-    res.status(500).json({ error: "Internal Server Error" });
+    return res.status(500).json({ error: "Internal Server Error" });
   }
 });
 
@@ -69,6 +84,16 @@ app.get("/gallery/api/currentweather/:latitude/:longitude", async (req, res) => 
   const { latitude, longitude } = req.params;
 
   try {
+    let checkLatitude = parseFloat(latitude);
+    if (isNaN(checkLatitude) || checkLatitude > 90 || checkLatitude < -90) {
+      return res.status(400).json({ error: "Invalid latitude!" });
+    }
+
+    let checkLongitude = parseFloat(longitude);
+    if (isNaN(checkLongitude) || checkLongitude > 180 || checkLongitude < -180) {
+      return res.status(400).json({ error: "Invalid longitude!" });
+    }
+
     const apiUrl = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&hourly=temperature_2m,precipitation,cloud_cover&daily=sunrise,sunset&timezone=auto&forecast_days=1`;
 
     const response = await axios.get(apiUrl);
@@ -89,10 +114,10 @@ app.get("/gallery/api/currentweather/:latitude/:longitude", async (req, res) => 
       daily: data.daily,
     };
 
-    res.json(currentWeatherData);
+    return res.json(currentWeatherData);
   } catch (error) {
     console.error("Error fetching current weather data:", error);
-    res.status(500).json({ error: "Internal Server Error" });
+    return res.status(500).json({ error: "Internal Server Error" });
   }
 });
 
