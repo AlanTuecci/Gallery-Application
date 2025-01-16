@@ -52,7 +52,7 @@ app.get("/gallery/api/weather/:latitude/:longitude/:date", async (req, res) => {
       return res.status(400).json({ error: "Invalid longitude!" });
     }
 
-    const apiUrl = `https://archive-api.open-meteo.com/v1/archive?latitude=${latitude}&longitude=${longitude}&start_date=${date}&end_date=${date}&hourly=temperature_2m,precipitation,cloud_cover&daily=sunrise,sunset&timezone=auto`;
+    const apiUrl = `https://archive-api.open-meteo.com/v1/archive?latitude=${encodeURIComponent(latitude)}&longitude=${encodeURIComponent(longitude)}&start_date=${encodeURIComponent(date)}&end_date=${encodeURIComponent(date)}&hourly=temperature_2m,precipitation,cloud_cover&daily=sunrise,sunset&timezone=auto`;
 
     const response = await axios.get(apiUrl);
 
@@ -94,7 +94,7 @@ app.get("/gallery/api/currentweather/:latitude/:longitude", async (req, res) => 
       return res.status(400).json({ error: "Invalid longitude!" });
     }
 
-    const apiUrl = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&hourly=temperature_2m,precipitation,cloud_cover&daily=sunrise,sunset&timezone=auto&forecast_days=1`;
+    const apiUrl = `https://api.open-meteo.com/v1/forecast?latitude=${encodeURIComponent(latitude)}&longitude=${encodeURIComponent(longitude)}&hourly=temperature_2m,precipitation,cloud_cover&daily=sunrise,sunset&timezone=auto&forecast_days=1`;
 
     const response = await axios.get(apiUrl);
 
