@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 import Navbar from "./Navbar";
 import "./ImageGallery.css";
 import "../App.css";
 import ImageDetails from "./ImageDetails";
 
-const URL = process.env.REACT_APP_URL || "gallery-3vk6.onrender.com";
+const URL = import.meta.env.REACT_APP_URL || "localhost";
 
 const ImageGallery = () => {
   const { id } = useParams();
