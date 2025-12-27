@@ -12,10 +12,13 @@
       "aperture": "f/5.6",
       "focal_length": "200 mm",
       "filename": "_DSC7165.jpg",
-      "url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274198/WebDev-Assignment-1/photo-norway/alesund/zlzyagj6jp7tjg3od6rd.jpg",
+      "backup_url": "https://res.cloudinary.com/dgfazyq2e/image/upload/v1700274198/WebDev-Assignment-1/photo-norway/alesund/zlzyagj6jp7tjg3od6rd.jpg",
       "latitude": 62.28,
       "longitude": 6.08,
-      "date": "2023-08-12"
+      "date": "2023-08-12",
+      "url": "https://alantuecci.dev/gallery/zlzyagj6jp7tjg3od6rd.jpg",
+      "plus_code": "F592+P3 Ålesund, Norway"
     }
-  ]
+  ],
+  "location": "Alesund, Norway"
 }
