@@ -4,3 +4,4 @@
 /frontend/node_modules
 frontend/.env
 .env
+backend/photo-metadata/notes.json

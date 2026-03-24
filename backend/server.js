@@ -5,7 +5,7 @@ const fs = require("fs/promises");
 // const axios = require("axios");
 
 const { config } = require("dotenv");
-const { type } = require("os");
+// const { type } = require("os");
 config();
 
 const app = express();
@@ -19,7 +19,7 @@ app.use(cors());
 app.get("/gallery/api/images/:gallery", async (req, res) => {
   let galleryName = req.params.gallery;
 
-  if(typeof galleryName != "string"){
+  if (typeof galleryName != "string") {
     return res.status(400).json({ error: "Bad request" });
   }
 
